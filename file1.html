@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+
+        <style>
+            table{
+                background-color: lightgray;
+                border: black;
+                border-width: 0.1cm;
+                border-style: double;
+            }
+
+            th{
+                border-color: black;
+                border-width: 0.05cm;
+                border-style: solid;
+
+                text-align: center;
+            }
+
+            th.nonborder{
+                border-style: none;
+            }
+
+            td
+            {
+                border-color: gray;
+                border-width: 0.05cm;
+                border-style: solid;
+            }
+
+            td#result
+            {
+                text-align: right;
+            }
+
+            caption{
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption><i>Результати рейтинга:</i></caption>
+            <tr>
+                <th class="nonborder"></th>
+                <th>9 тиждень</th>
+                <th>18 тиждень</th>
+            </tr>
+            <tr>
+                <th>Математична лінгвістика</th>
+                <td>5</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>Математична логіка</th>
+                <td>4</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td id="result" colspan="2">
+                    Результат:
+                </td>
+                <td>4</td>
+            </tr>
+        </table>
+    </body>
+</html>
